@@ -98,10 +98,10 @@ def scrambled_words():
         if user_choice in len6:
             len6_found.append(user_choice)
             len6.remove(user_choice)
-        elif user_choice in len6:
+        elif user_choice in len5:
             len5_found.append(user_choice)
             len5.remove(user_choice)
-        elif user_choice in len6:
+        elif user_choice in len4:
             len4_found.append(user_choice)
             len4.remove(user_choice)
         else:
